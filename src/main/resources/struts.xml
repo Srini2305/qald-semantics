@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+
+    <constant name="struts.enable.SlashesInActionNames" value="true"/>
+    <constant name="struts.mapper.alwaysSelectFullNamespace" value="false"/>
+    <constant name="struts.enable.DynamicMethodInvocation" value="false"/>
+
+    <package name="default" extends="struts-default" namespace="/">
+    
+		<result-types>
+			<result-type name="json" default="true"
+				class="org.apache.struts2.json.JSONResult">
+				<param name="excludeNullProperties">true</param>
+				<param name="defaultEncoding">UTF-8</param>
+			</result-type>
+			<result-type name="stream"
+				class="org.apache.struts2.dispatcher.StreamResult">
+				<param name="contentType">application/json</param>
+				<param name="contentCharSet">UTF-8</param>
+				<param name="contentDisposition">attachment;filename=test.txt</param>
+			</result-type>
+		</result-types>
+
+        <default-action-ref name="index" />
+
+        <action name="query" class="com.asu.ser.QuestionAnsweringAction" method="query">
+			<result type="dispatcher">index.jsp</result>
+        </action>
+
+    </package>
+
+</struts>

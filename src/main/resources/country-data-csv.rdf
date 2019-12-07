@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:coun="http://www.country.in/country#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/">
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/0">
+	<capital xmlns="http://www.semanticweb.org/14802/ontologies/2019/10/untitled-ontology-10#">Dhaka</capital>
+	<continent_name xmlns="http://www.semanticweb.org/14802/ontologies/2019/10/untitled-ontology-10#">AS</continent_name>
+	<name xmlns="http://www.semanticweb.org/14802/ontologies/2019/10/untitled-ontology-10#">Bangladesh</name>
+	<currency xmlns="http://www.semanticweb.org/14802/ontologies/2019/10/untitled-ontology-10#">BDT</currency>
+	<code xmlns="http://127.0.0.1:3333/">BD</code>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/1">
+	<capital xmlns="http://www.semanticweb.org/14802/ontologies/2019/10/untitled-ontology-10#">Brussels</capital>
+	<continent_name xmlns="http://www.semanticweb.org/14802/ontologies/2019/10/untitled-ontology-10#">EU</continent_name>
+	<name xmlns="http://www.semanticweb.org/14802/ontologies/2019/10/untitled-ontology-10#">Belgium</name>
+	<currency xmlns="http://www.semanticweb.org/14802/ontologies/2019/10/untitled-ontology-10#">EUR</currency>
+	<code xmlns="http://127.0.0.1:3333/">BE</code>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/2">
+	<capital xmlns="http://www.semanticweb.org/14802/ontologies/2019/10/untitled-ontology-10#">Ouagadougou</capital>
+	<continent_name xmlns="http://www.semanticweb.org/14802/ontologies/2019/10/untitled-ontology-10#">AF</continent_name>
+	<name xmlns="http://www.semanticweb.org/14802/ontologies/2019/10/untitled-ontology-10#">Burkina Faso</name>
+	<currency xmlns="http://www.semanticweb.org/14802/ontologies/2019/10/untitled-ontology-10#">XOF</currency>
+	<code xmlns="http://127.0.0.1:3333/">BF</code>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/3">
+	<capital xmlns="http://www.semanticweb.org/14802/ontologies/2019/10/untitled-ontology-10#">Sofia</capital>
+	<continent_name xmlns="http://www.semanticweb.org/14802/ontologies/2019/10/untitled-ontology-10#">EU</continent_name>
+	<name xmlns="http://www.semanticweb.org/14802/ontologies/2019/10/untitled-ontology-10#">Bulgaria</name>
+	<currency xmlns="http://www.semanticweb.org/14802/ontologies/2019/10/untitled-ontology-10#">BGN</currency>
+	<code xmlns="http://127.0.0.1:3333/">BG</code>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/4">
+	<capital xmlns="http://www.semanticweb.org/14802/ontologies/2019/10/untitled-ontology-10#">Sarajevo</capital>
+	<continent_name xmlns="http://www.semanticweb.org/14802/ontologies/2019/10/untitled-ontology-10#">EU</continent_name>
+	<name xmlns="http://www.semanticweb.org/14802/ontologies/2019/10/untitled-ontology-10#">Bosnia and Herzegovina</name>
+	<currency xmlns="http://www.semanticweb.org/14802/ontologies/2019/10/untitled-ontology-10#">BAM</currency>
+	<code xmlns="http://127.0.0.1:3333/">BA</code>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/5">
+	<capital xmlns="http://www.semanticweb.org/14802/ontologies/2019/10/untitled-ontology-10#">Bridgetown</capital>
+	<continent_name xmlns="http://www.semanticweb.org/14802/ontologies/2019/10/untitled-ontology-10#">NA</continent_name>
+	<name xmlns="http://www.semanticweb.org/14802/ontologies/2019/10/untitled-ontology-10#">Barbados</name>
+	<currency xmlns="http://www.semanticweb.org/14802/ontologies/2019/10/untitled-ontology-10#">BBD</currency>
+	<code xmlns="http://127.0.0.1:3333/">BB</code>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3333/249">
+	<capital xmlns="http://www.semanticweb.org/14802/ontologies/2019/10/untitled-ontology-10#">Maputo</capital>
+	<continent_name xmlns="http://www.semanticweb.org/14802/ontologies/2019/10/untitled-ontology-10#">AF</continent_name>
+	<name xmlns="http://www.semanticweb.org/14802/ontologies/2019/10/untitled-ontology-10#">Mozambique</name>
+	<currency xmlns="http://www.semanticweb.org/14802/ontologies/2019/10/untitled-ontology-10#">MZN</currency>
+	<code xmlns="http://127.0.0.1:3333/">MZ</code>
+</rdf:Description>
+
+</rdf:RDF>
